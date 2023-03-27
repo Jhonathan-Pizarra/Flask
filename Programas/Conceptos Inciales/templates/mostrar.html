@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+</head>
+<body>
+
+    <h1>Llegaste al name :) {{apellido}}</h1>
+    <div>
+        <a href="{{url_for('inicio')}}">Regresar al inicio</a>
+        <a href="{{url_for('mostrar_edad', edad=22)}}">Ir a la edad</a> <!--se le pasa no la ruta sino el método!-->
+    </div>
+
+</body>
+</html>
